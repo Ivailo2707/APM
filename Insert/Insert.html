@@ -4,8 +4,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <title>APM-Insert</title>
 </head>
-<body style="background-color: #D8D5DB;">
+<body style="background-color: #D8D5DB; margin: 0%; padding: 0%;">
     <script src="./Insert.js"></script>
+    <div class="Typer">
     <div class="google">
         <label for="Google">Google:</label>
         <input type="email" id="google" name="Google" placeholder="Someone@gmail.com">
@@ -14,6 +15,9 @@
         <label for="password">Password:</label>
         <input type="password" id="password" name="Google" placeholder="Enter a password">
     </div>
-    <button onclick="Submit()">Click me</button>
+    <p id="ok"></p>
+    <p id="error"></p>
+    <button class="submit_button" onclick="Print_Error()">Click me</button>
+    </div>
 
 </body>

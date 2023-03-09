@@ -29,7 +29,15 @@ function Validate_email(str){
 function Submit(){
     let Google = document.getElementById("google").value;
     let google_str = Google.toString();
-    let Password = document.getElementById("password").value;
-    let password_str = Password.toString(); 
-    console.log(Validate_email(google_str))
+    final_flag = Validate_email(google_str);
+    return final_flag;
+}
+function Print_Error(){
+    let is_there_error = Submit();
+    if(is_there_error){
+    document.getElementById("ok").innerHTML = "It's ok";
+    }
+    else{
+    document.getElementById("error").innerHTML = "Invalid Email";
+    }
 }
