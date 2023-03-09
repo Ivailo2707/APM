@@ -19,14 +19,18 @@ body{
     flex-direction: row;
     list-style: none;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
 .navbar-item{
     text-decoration: none;
     left: 0;
     height: 4rem;
+    width: 100%;
     text-align: left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #body{
@@ -42,13 +46,18 @@ body{
 
 .navbar-label{
     font-size: 30px;
-    width: 10rem;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+    width: 100%;
+    vertical-align: middle;
     color:black;
 }
 
 .navbar-link{
     text-decoration: none;
     color: black;
+    display:flex;
+    gap: 15px;
 }
 
 
@@ -58,6 +67,8 @@ body{
     justify-content: space-between;
 }
 
+
 .navbar-item:hover{
-    background-color: grey;
+    animation-name: react;
+    animation-duration: 0.5s;
 }
