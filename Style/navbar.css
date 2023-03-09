@@ -5,6 +5,7 @@
     position: fixed;
     flex-direction: row;
     background-color: #2D3142;
+    z-index: 99;
 }
 
 #icon{
