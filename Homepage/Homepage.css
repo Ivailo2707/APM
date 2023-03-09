@@ -6,13 +6,9 @@ body{
 #navbar{
     top: 0px;
     width: 100vw;
-    height: 3rem;
+    height: 4rem;
     position: fixed;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    color: #fff;
     background-color: #5fdd9d;
 }
 
@@ -23,11 +19,14 @@ body{
     flex-direction: row;
     list-style: none;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
 .navbar-item{
     text-decoration: none;
+    left: 0;
+    height: 4rem;
+    text-align: left;
 }
 
 #body{
@@ -37,13 +36,14 @@ body{
 
 
 .icon{
-    height: 40px;
-    
+    margin-top: 0.5rem;
+    height: 3rem;
 }
 
 .navbar-label{
     font-size: 30px;
-    top: 5px;
+    width: 10rem;
+    color:black;
 }
 
 .navbar-link{
@@ -58,6 +58,6 @@ body{
     justify-content: space-between;
 }
 
-#labels:hover{
-    display:flex;
+.navbar-item:hover{
+    background-color: grey;
 }
