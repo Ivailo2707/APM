@@ -13,3 +13,25 @@
     top: 500px;
     font-size: 25px;
 }
+
+.submit_button{
+    position: relative;
+    top: 540px;
+    left: 200px;
+}
+
+#ok{
+    position: relative;
+    top: 580px;
+    left: 200px;
+    margin: 0%;
+    padding: 0%;
+}
+
+#error{
+    position: relative;
+    top: 580px;
+    left: 200px;    
+    margin: 0%;
+    padding: 0%;
+}
