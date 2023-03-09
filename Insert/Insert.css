@@ -1,37 +1,52 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #D8D5DB;
+    margin: 0%;
+    padding: 0%; 
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+}
+
+.Typer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
 .google{
     display: flex;
     position: relative;
-    left: 200px;
-    top: 400px;
     font-size: 25px;
+    display: flex;
+    margin-bottom: 15px;
 }
 
 .password{
     display: flex;
     position: relative;
-    left: 200px;
-    top: 500px;
     font-size: 25px;
 }
 
 .submit_button{
+    display: flex;
     position: relative;
-    top: 540px;
-    left: 200px;
+    width: 50%;
+    justify-content: center;
 }
 
 #ok{
     position: relative;
-    top: 580px;
-    left: 200px;
-    margin: 0%;
-    padding: 0%;
+    display: flex;
 }
 
 #error{
     position: relative;
-    top: 580px;
-    left: 200px;    
-    margin: 0%;
-    padding: 0%;
+    display: flex;
+    color: red;
 }
