@@ -31,9 +31,13 @@ function Validate_email(str){
 function Submit_data(){
     console.log('Submit_data')
     let google = document.getElementById("google").value;
-    //let google_str = Google.toString();
-    if(Validate_email(google)){
-        document.getElementById("ok").innerHTML = "It's ok";
+    let password = document.getElementById("password").value;
+    document.getElementById("error").innerHTML = "";
+    if(!password){
+        document.getElementById("error").innerHTML = "Error no password given";
+    }
+    else if(Validate_email(google)){
+        document.getElementById("error").innerHTML = "It's ok";
     }
     else{
         document.getElementById("error").innerHTML = "Invalid Email";
