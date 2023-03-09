@@ -1,0 +1,7 @@
+.google{
+    display: flex;
+    position: relative;
+    left: 200px;
+    top: 400px;
+    font-size: 25px;
+}
