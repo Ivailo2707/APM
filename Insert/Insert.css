@@ -5,3 +5,11 @@
     top: 400px;
     font-size: 25px;
 }
+
+.password{
+    display: flex;
+    position: relative;
+    left: 200px;
+    top: 500px;
+    font-size: 25px;
+}

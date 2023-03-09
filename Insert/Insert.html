@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="Insert.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <title>APM-Insert</title>
 </head>
-<body style="background-color: gray;">
+<body style="background-color: #D8D5DB;">
+    <script src="./Insert.js"></script>
     <div class="google">
         <label for="Google">Google:</label>
-        <input type="text" name="Google" placeholder="Someone@gmail.com">
+        <input type="email" id="google" name="Google" placeholder="Someone@gmail.com">
     </div>
+    <div class="password">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="Google" placeholder="Enter a password">
+    </div>
+    <button onclick="Submit()">Click me</button>
 
 </body>
