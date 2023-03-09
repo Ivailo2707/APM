@@ -32,9 +32,11 @@ function Submit_data(){
     console.log('Submit_data')
     let google = document.getElementById("google").value;
     let password = document.getElementById("password").value;
-    //let google_str = Google.toString()
     document.getElementById("error").innerHTML = "";
-    if(Validate_email(google)){
+    if(!password){
+        document.getElementById("error").innerHTML = "Error no password given";
+    }
+    else if(Validate_email(google)){
         document.getElementById("error").innerHTML = "It's ok";
     }
     else{
