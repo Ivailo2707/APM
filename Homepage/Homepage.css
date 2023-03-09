@@ -9,7 +9,12 @@ body{
     height: 4rem;
     position: fixed;
     flex-direction: row;
-    background-color: #5fdd9d;
+    background-color: #2D3142;
+}
+
+#icon{
+    width:50px;
+    padding-left: 50px
 }
 
 #nav-items{
@@ -31,6 +36,7 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
 }
 
 #body{
@@ -42,6 +48,7 @@ body{
 .icon{
     margin-top: 0.5rem;
     height: 3rem;
+    filter: drop-shadow(#d2cebd);
 }
 
 .navbar-label{
@@ -50,7 +57,8 @@ body{
     padding-bottom: 0.9rem;
     width: 100%;
     vertical-align: middle;
-    color:black;
+    color: #B0D7FF;
+    transition: 0.5s;
 }
 
 .navbar-link{
@@ -69,6 +77,12 @@ body{
 
 
 .navbar-item:hover{
-    animation-name: react;
-    animation-duration: 0.5s;
+    background-color: #ADACB5;   
 }
+
+.navbar-item:hover .navbar-label{
+    color: #52534a;
+    font-size: 35px;
+    text-shadow: 2px 2px grey;
+}
+
