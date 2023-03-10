@@ -7,7 +7,8 @@
     <link rel="icon" type="image/x-icon" href="../Images/h_logo.svg">
     <link rel="stylesheet" href="../Style/Homepage.css">
     <link rel="stylesheet" href="../Style/navbar.css">
-    <title>APM Guide</title>
+    <link rel="stylesheet" href="../Style/loader.css">
+    <title>APM-Homepage</title>
 </head>
 <body  onscroll="scroll_navbar()">
     <nav id="navbar">
@@ -73,7 +74,7 @@
         <h1 id="title">Secure your passwords with APM</h1>
         <div id = "photo"></div>
         <ul id = "feature_list">
-            <li class ="features" onmouseover="ChangeImg(0)" onmouseleave="Revert()">Simple, easy to use design</li>
+            <li class ="features" onmouseover="ChangeImg(0)" onmouseleave="Revert()" style="cursor: pointer;">Simple, easy to use design</li>
             <li class ="features">Keeps your passwords safe</li>
             <li class ="features">Has an anti-theft function</li>
             <li class ="features">Is relatively cheap</li>
@@ -113,6 +114,8 @@
 
         </footer>
     </div>
+    <div class="loader"></div>
     <script src="/Homepage/Homepage.js"></script>
+    <script src="../function/loader.js" defer></script>
 </body>
 </html>

@@ -37,6 +37,29 @@ label{
     font-size: 25px;
     text-shadow: 0.5px 0.5px grey;
 }
+button {
+    background-color: #085078;
+    font-weight: bold;
+    color: white;
+    padding: 10px 16px;
+    font-size: 1rem;
+    border-radius: .5rem;
+    transition: all .15s cubic-bezier(0.4,0,0.2,1);
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #181f3e;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+
+  button:active {
+    position: relative;
+    top: 1px;
+    right: 1px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
 
 #site{
     grid-area: Site_field;
