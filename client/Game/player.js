@@ -1,10 +1,15 @@
-const canvas = document.getElementById("game");
-const ctx = canvas.getContext("2d");
-canvas.width = 1890;
-canvas.height = 917;
-
-function game(){
-    
+export default class Npc {
+    constructor(canvas) {
+        this.canvas = canvas;
+        this.x = 1500;  
+        this.y = this.canvas.height/2.2;
+        this.width = 140;
+        this.height = 200;
+        this.image = new Image();
+        this.image.src = "";
+    }
+    draw(ctx){
+        ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+        ctx.drawImage(this.image, this.x, this.y, this.width, this.height);
+    }
 }
-
-setInterval(game,1000/60);
