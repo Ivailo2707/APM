@@ -1,8 +1,37 @@
-body {
+html{
+    height: 100%;
+}
+
+body{
     margin: 0%;
-    background: url("/Images/Game_Images/room.png") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    padding: 0%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Barlow', sans-serif;
+    scroll-behavior: smooth;
+    background: linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+    /* font-family: 'Barlow', sans-serif;   */
+}
+.soon{
+    position: relative;
+    display: flex;
+    grid-template-columns: 3fr 3fr;
+    height: 60%;
+    top: 10%;
+    flex-direction: column;
+    align-items: center;
+}
+.coming_soon{
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+}
+
+.logo {
+    grid-area: img;
+    width: 350px;
+    height: 350px;
+    top: 100%;
+    margin-bottom: 30px;
 }
