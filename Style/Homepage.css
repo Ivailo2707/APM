@@ -86,7 +86,7 @@ body{
     "title img img"
     "text img img"
     "text img img";
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.25fr 0.5fr 0.5fr;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -101,7 +101,14 @@ body{
     font-size: 50px;
     color: #B0D7FF;
     font-weight: 700;
-    margin-top: 50px;
+}
+
+#photo{
+    grid-area: img;
+    background-image: url("../Images/photo.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:0.75fr;
 }
 
 
