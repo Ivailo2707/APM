@@ -20,47 +20,81 @@ body{
 
 .Typer{
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-template-areas: 
+    "img img"
+    "label1 label1"
+    "Site_field Site_field"
+    "label2 label2"
+    "Password_field Password_field"
+    "connect_btn submit_btn"
+    ;
     height: 60%;
-    top: 10%;
-
+    margin-top: 6rem;
 }
 
-.site{
-    display: flex;
-    position: relative;
-    font-size: 25px;
-    display: flex;
-    margin-bottom: 15px;
+label{
+    color: #B0D7FF;
+    font-weight: 700;
+    text-shadow: 1px 1px grey;
+    font-size: 20px;
 }
 
-.password{
-    display: flex;
-    position: relative;
-    font-size: 25px;
+#pass_label{
+    margin-top: 10px;
+    grid-area: label2;
 }
 
-.submit_button{
-    display: flex;
-    position: relative;
-    width: 50%;
-    justify-content: center;
+#site{
+    grid-area: Site_field;
 }
 
-#ok{
-    position: relative;
-    display: flex;
+#password{
+    grid-area: Password_field;
 }
+
+
+#submit_button{
+    grid-area: submit_btn;
+    color: #B0D7FF;
+    text-shadow: 0.5px 0.5px grey;
+    font-size: 15px;
+    background-color: #2D3142;
+    border: 2px solid #181f3e;
+    border-radius: 25px;
+}
+
+#connect_button{
+    grid-area: connect_btn;
+    color: #B0D7FF;
+    text-shadow: 0.5px 0.5px grey;
+    font-size: 15px;
+    background-color: #2D3142;
+    border: 2px solid #181f3e;
+    border-radius: 25px;
+}
+
+#connect_button:hover{
+    cursor:pointer;
+    color:#52534a;
+    background-color: #ADACB5
+}
+
+#submit_button:hover{
+    cursor:pointer;
+    color:#52534a;
+    background-color: #ADACB5
+}
+
 
 #error{
     position: relative;
-    display: flex;
     color: red;
 }
 
 .logo {
+    grid-area: img;
     width: 350px;
     height: 350px;
     top: 100%;
