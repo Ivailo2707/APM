@@ -9,16 +9,6 @@ body{
   scroll-behavior: smooth;
 }
 
-.logo {
-  width: 10%;
-  height: 10%;
-    background-image: url("../Images/h_logo.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 30px;
-}
-
 .soon{
   height: 100%;
   margin-top: 50px;
@@ -41,5 +31,5 @@ body{
 .coming_soon {
   font-size: 50px;
   font-weight: 800;
-  color: white;
+  color: #b0d7ff;
 }
