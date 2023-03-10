@@ -6,7 +6,7 @@
     <link rel="stylesheet" href = "../Style/navbar.css">
     <link rel="icon" type="image/x-icon" href="../Images/h_logo.svg">
     <script src="hterm_all.js"></script>
-    <script src="./serial.js"></script>
+    <script src="serial.js"></script>
     <script src="console.js"></script>
     <script src="./Insert.js"></script>
     <title>APM Insert</title>
@@ -55,16 +55,11 @@
 
         </ul>
     </nav>
-    <form class="Typer">
-        <img class="logo" src="../Images/h_logo.svg" alt="logo">
-            <label for="Site">Site</label>
-            <input type="site" id="site" name="site" placeholder="site">
-
-            <label for="password" id="pass_label">Password</label>
-            <input type="password" id="password" name="password" placeholder="Enter a password">
-        <p id="error"></p>
-        <button id="connect_button" class="button" type="button" onclick="connect1()">Connect</button>
-        <button id="submit_button" class="button" onclick="submit_dat()" type="button">Submit</button>
-    </form>
+    <div style="padding-top: 100px">
+        <p>
+            <button id="connect">Connect</button>
+        </p>
+        <div id="terminal" style="position:relative; width:100%; height:100%"></div>
+    </div>
 </body>
 </html>

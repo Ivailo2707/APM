@@ -20,8 +20,8 @@ body{
 }
 
 .logo {
-    width: 200px;
-    height: 200px;
+  width: 50%;
+  height: 50%;
     background-image: url("../Images/h_logo.svg");
     background-size: contain;
     background-repeat: no-repeat;
