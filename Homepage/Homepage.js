@@ -15,3 +15,14 @@ function scroll_navbar() {
   }
   lastY = currY;
 }
+
+function ChangeImg(i){
+  const photo = document.querySelector("#photo");
+  i += 2;
+  photo.style.backgroundImage = "url(../Images/photo"+i+".jpg)";
+}
+
+function Revert(){
+  const photo = document.querySelector("#photo");
+  photo.style.backgroundImage = "url(../Images/photo.jpg)";
+}
