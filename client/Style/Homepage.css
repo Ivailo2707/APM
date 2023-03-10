@@ -20,8 +20,13 @@ body{
 }
 
 .logo {
+<<<<<<< HEAD
   width: 50%;
   height: 50%;
+=======
+    width: 50%;
+    height: 50%;
+>>>>>>> 662298714989db8f155322201d919aa2b89ce512
     background-image: url("../Images/h_logo.svg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -127,13 +132,6 @@ body{
 .features{
   margin-top: 40px;
 }
-
-.features:hover{
-  border-top: 5px ridge #52534a;
-  border-left:  5px ridge #52534a;
-  border-bottom:  5px ridge #52534a;
-}
-
 
 
 footer {
