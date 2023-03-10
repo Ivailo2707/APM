@@ -52,18 +52,15 @@
         </ul>
     </nav>
     <form class="Typer">
-    <img class="logo" src="../Images/h_logo.svg" alt="logo">
-    <div class="site">
-        <label for="Site">Site:</label>
-        <input type="site" id="site" name="site" placeholder="site">
-    </div>
-    <div class="password">
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" placeholder="Enter a password">
-    </div>
-    <p id="error"></p>
-    <button id="connect" type="button">Connect</button>
-    <button class="submit_button" onclick="submit_dat()" type="button">Submit</button>
-</form>
+        <img class="logo" src="../Images/h_logo.svg" alt="logo">
+            <label for="Site">Site</label>
+            <input type="site" id="site" name="site" placeholder="site">
+
+            <label for="password" id="pass_label">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter a password">
+        <p id="error"></p>
+        <button id="connect_button" class="button" type="button">Connect</button>
+        <button id="submit_button" class="button" onclick="submit_dat()" type="button">Submit</button>
+    </form>
 </body>
 </html>

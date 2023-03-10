@@ -50,6 +50,7 @@
     width: 100%;
     vertical-align: middle;
     color: #B0D7FF;
+    text-shadow: 1px 1px grey;
     transition: 0.5s;
 }
 
