@@ -1,16 +1,20 @@
 @import url("Homepage/Homepage_fonts/Barlow.ttf");
 
+@import url("Homepage/Homepage_fonts/Barlow.ttf");
+
 html{
     height: 100%;
 }
 
 body{
-    background-color: #D8D5DB;
     margin: 0%;
     padding: 0%;
     height: 100%;
     display: flex;
     justify-content: center;
+    font-family: 'Barlow', sans-serif;
+    scroll-behavior: smooth;
+    background: linear-gradient(45deg, #085078 10%, #85d8ce 90%);
     font-family: 'Barlow', sans-serif;
 }
 
@@ -52,4 +56,11 @@ body{
     position: relative;
     display: flex;
     color: red;
+}
+
+.logo {
+    width: 350px;
+    height: 350px;
+    top: 100%;
+    margin-bottom: 30px;
 }
