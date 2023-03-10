@@ -63,7 +63,7 @@ label{
     border-radius: 25px;
 }
 
-#connect{
+#connect_button{
     grid-area: connect_btn;
     color: #B0D7FF;
     text-shadow: 0.5px 0.5px grey;
