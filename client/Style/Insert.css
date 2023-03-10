@@ -1,0 +1,100 @@
+@import url("Homepage/Homepage_fonts/Barlow.ttf");
+
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Barlow', sans-serif;
+    scroll-behavior: smooth;
+    background: linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+    font-family: 'Barlow', sans-serif;  
+}
+
+.Typer{
+    position: relative;
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-template-areas: 
+    "img img"
+    "label1 label1"
+    "Site_field Site_field"
+    "label2 label2"
+    "Password_field Password_field"
+    "connect_btn submit_btn"
+    ;
+    height: 60%;
+    top: 10%;
+}
+
+label{
+    color: #B0D7FF;
+    font-size: 25px;
+    text-shadow: 0.5px 0.5px grey;
+}
+
+#site{
+    grid-area: Site_field;
+    height: 30px;
+}
+
+#pass_label{
+    grid-area: label2;
+}
+
+#password{
+    grid-area: Password_field;
+    height: 30px;
+}
+
+
+#submit_button{
+    grid-area: submit_btn;
+    color: #B0D7FF;
+    text-shadow: 0.5px 0.5px grey;
+    font-size: 15px;
+    background-color: #2D3142;
+    border: 2px solid #181f3e;
+    border-radius: 25px;
+}
+
+#connect_button{
+    grid-area: connect_btn;
+    color: #B0D7FF;
+    text-shadow: 0.5px 0.5px grey;
+    font-size: 15px;
+    background-color: #2D3142;
+    border: 2px solid #181f3e;
+    border-radius: 25px;
+}
+
+#connect_button:hover{
+    cursor:pointer;
+    color:#52534a;
+    background-color: #ADACB5
+}
+
+#submit_button:hover{
+    cursor:pointer;
+    color:#52534a;
+    background-color: #ADACB5
+}
+
+
+#error{
+    position: relative;
+    color: red;
+}
+
+.logo {
+    grid-area: img;
+    width: 350px;
+    height: 350px;
+    top: 100%;
+    margin-bottom: 30px;
+}
