@@ -10,7 +10,8 @@
 #define RST_PIN -1
 #define MAX 10
 
-WebUSB WebUSBS(0 /* https:// */, "webusb.github.io/arduino/demos/console");
+WebUSB WebUSBS(1 /* http:// */, "localhost:3000/Insert/Insert.html");
+// WebUSB WebUSBS(0 /* https:// */, "webusb.github.io/arduino/demos/console");
 
 #define Web WebUSBS
 
@@ -40,10 +41,6 @@ int index = 0;
 
 void setup() {
   Serial.begin(9600); // debug
-
-  while (!Web) {
-    ;
-  }
 
   #if RST_PIN >= 0
   oled.begin(&Adafruit128x32, I2C_ADDRESS, RST_PIN);
@@ -86,6 +83,13 @@ void loop() {
       Keyboard.end();
 
       // start web usb
+
+      while (!Web) {
+        oled.clear();
+        oled.print("Please connect...");
+        delay(200);
+      }
+
       Web.begin(9600);
       Web.write(msg);
       Web.flush();
