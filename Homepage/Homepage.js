@@ -1,3 +1,4 @@
 function scrollDown() {
-    window.scrollBy(0, 500);
+    const marketing = document.querySelector("#marketing_section");
+    marketing.scrollIntoView({ behavior: "smooth" });
   }
