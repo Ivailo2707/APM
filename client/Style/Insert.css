@@ -40,6 +40,7 @@ label{
 
 #site{
     grid-area: Site_field;
+    height: 30px;
 }
 
 #pass_label{
@@ -48,6 +49,7 @@ label{
 
 #password{
     grid-area: Password_field;
+    height: 30px;
 }
 
 
