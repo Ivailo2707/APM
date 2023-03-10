@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta http-equiv="origin-trial" data-feature="WebUSB (For Chrome M57+)" data-expires="2017-06-19" content="Ag83MurQOa5N4SKRCqqtSlbycfe08s5LgUiqEI7J3jTk2NEIpRp7SLPz2i+EBDuXyf+AeRMdD6BI++kTSJmGzQEAAABReyJvcmlnaW4iOiJodHRwczovL3dlYnVzYi5naXRodWIuaW86NDQzIiwiZmVhdHVyZSI6IldlYlVTQjIiLCJleHBpcnkiOjE0OTc4OTM2OTV9">
     <link rel="stylesheet" href="../Style/Insert.css">
     <link rel="stylesheet" href = "../Style/navbar.css">
     <link rel="icon" type="image/x-icon" href="../Images/h_logo.svg">
+    <script src="hterm_all.js"></script>
+    <script src="./serial.js"></script>
+    <script src="console.js"></script>
     <script src="./Insert.js"></script>
     <title>APM-Insert</title>
 </head>
@@ -59,7 +63,7 @@
             <label for="password" id="pass_label">Password</label>
             <input type="password" id="password" name="password" placeholder="Enter a password">
         <p id="error"></p>
-        <button id="connect_button" class="button" type="button">Connect</button>
+        <button id="connect" class="button" type="button" onclick="connect1()">Connect</button>
         <button id="submit_button" class="button" onclick="submit_dat()" type="button">Submit</button>
     </form>
 </body>

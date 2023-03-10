@@ -1,7 +1,5 @@
 @import url("Homepage/Homepage_fonts/Barlow.ttf");
 
-@import url("Homepage/Homepage_fonts/Barlow.ttf");
-
 html{
     height: 100%;
 }
@@ -33,6 +31,21 @@ body{
     height: 60%;
     top: 10%;
 }
+
+label{
+    color: #B0D7FF;
+    font-size: 25px;
+    text-shadow: 0.5px 0.5px grey;
+}
+
+#site{
+    grid-area: Site_field;
+}
+
+#pass_label{
+    grid-area: label2;
+}
+
 #password{
     grid-area: Password_field;
 }
@@ -48,7 +61,7 @@ body{
     border-radius: 25px;
 }
 
-#connect_button{
+#connect{
     grid-area: connect_btn;
     color: #B0D7FF;
     text-shadow: 0.5px 0.5px grey;
