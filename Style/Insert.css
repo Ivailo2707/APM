@@ -5,8 +5,8 @@ html{
 body{
     background-color: #D8D5DB;
     margin: 0%;
-    padding: 0%; 
-    height: 100%; 
+    padding: 0%;
+    height: 100%;
     display: flex;
     justify-content: center;
 }
@@ -123,7 +123,7 @@ body{
 
 
 .navbar-item:hover{
-    background-color: #ADACB5;   
+    background-color: #ADACB5;
 }
 
 .navbar-item:hover .navbar-label{
@@ -131,4 +131,3 @@ body{
     font-size: 35px;
     text-shadow: 2px 2px grey;
 }
-
