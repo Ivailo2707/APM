@@ -1,7 +1,5 @@
 @import url("Homepage/Homepage_fonts/Barlow.ttf");
 
-@import url("Homepage/Homepage_fonts/Barlow.ttf");
-
 html{
     height: 100%;
 }
@@ -65,7 +63,7 @@ label{
     border-radius: 25px;
 }
 
-#connect_button{
+#connect{
     grid-area: connect_btn;
     color: #B0D7FF;
     text-shadow: 0.5px 0.5px grey;
