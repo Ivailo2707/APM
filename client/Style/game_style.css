@@ -2,6 +2,11 @@
 
 body{
   background: linear-gradient(45deg, #085078 10%, #85d8ce 90%) no-repeat center center fixed;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  font-family: 'Barlow', sans-serif;
+  scroll-behavior: smooth;
 }
 
 .logo {
@@ -12,4 +17,29 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 30px;
+}
+
+.soon{
+  height: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  width: 20%;
+  height: 20%;
+  background-image: url("../Images/h_logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 30px;
+}
+
+.coming_soon {
+  font-size: 50px;
+  font-weight: 800;
+  color: white;
 }

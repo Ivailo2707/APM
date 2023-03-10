@@ -20,18 +20,13 @@ body{
 }
 
 .logo {
-<<<<<<< HEAD
   width: 50%;
   height: 50%;
-=======
-    width: 50%;
-    height: 50%;
->>>>>>> 662298714989db8f155322201d919aa2b89ce512
-    background-image: url("../Images/h_logo.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 30px;
+  background-image: url("../Images/h_logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
 }
 
 .arrow-container {
