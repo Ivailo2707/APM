@@ -20,8 +20,8 @@ body{
 }
 
 .logo {
-    width: 200px;
-    height: 200px;
+    width: 50%;
+    height: 50%;
     background-image: url("../Images/h_logo.svg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -127,13 +127,6 @@ body{
 .features{
   margin-top: 40px;
 }
-
-.features:hover{
-  border-top: 5px ridge #52534a;
-  border-left:  5px ridge #52534a;
-  border-bottom:  5px ridge #52534a;
-}
-
 
 
 footer {
